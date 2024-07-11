@@ -1,8 +1,16 @@
 import React from 'react'
 import "./list.css"
 
+import ChatList from './chatList/ChatList'
+import UserInfo from './userInfo/UserInfo'
+
 export default function List() {
   return (
-    <div>List</div>
+    <div className="list">
+<UserInfo/>
+    <ChatList/>
+
+
+    </div>
   )
 }

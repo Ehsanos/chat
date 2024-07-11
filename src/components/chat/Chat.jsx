@@ -5,7 +5,7 @@ export default function Chat() {
   return (
 
 
-    <div>
+    <div className='chat'>
       chats
     </div>
 
